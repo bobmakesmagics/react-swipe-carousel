@@ -15,30 +15,31 @@ body {
 }
 
 .swiper {
-  width: 100%;
-  padding-top: 50px;
+  width: 80%;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 .swiper-slide-active {
-  transform: translate3d(0px, -25px, 0px) rotateX(0deg) rotateY(0deg) scale(1.1)!important;
+  transform: translate3d(0px, -50px, 0px) rotateX(0deg) rotateY(0deg) scale(1.1)!important;
 }
 
 .swiper-slide {
   background-position: center;
   background-color: rgb(44 44 44 / 85%);
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .swiper-slide img {
-  margin: 20px auto;
+  margin: 30px auto;
+  margin-bottom: 10px;
   display: block;
-  width: 90%;
+  width: 95%;
   border-radius: 5px;
 }
 
 .swiper-slide p {
-  margin: 20px;
+  margin: 10px;
   color: white;
 }
 

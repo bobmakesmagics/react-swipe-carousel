@@ -27,13 +27,12 @@ export default function App() {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        spaceBetween={0}
+        spaceBetween={-20}
         slidesPerView={3}
-        resistance={false}
         coverflowEffect={{
           rotate: 20,
-          stretch: 60,
-          depth: 200,
+          stretch: 80,
+          depth: 150,
           modifier: 2,
           slideShadows: false,
         }}
