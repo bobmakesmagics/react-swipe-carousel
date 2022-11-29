@@ -29,11 +29,12 @@ export default function App() {
         centeredSlides={true}
         spaceBetween={0}
         slidesPerView={3}
+        resistance={false}
         coverflowEffect={{
-          rotate: 30,
-          stretch: 35,
-          depth: 250,
-          modifier: 1,
+          rotate: 20,
+          stretch: 60,
+          depth: 200,
+          modifier: 2,
           slideShadows: false,
         }}
         pagination={{ clickable: true }}
